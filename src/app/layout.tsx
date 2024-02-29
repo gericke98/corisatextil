@@ -16,7 +16,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <p className="flex justify-center">
+          Free designs in 24 hours, get started now!
+        </p>
+        <div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
